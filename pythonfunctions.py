@@ -8,9 +8,9 @@ def checkSum(a,b,c):
   d = a+b+c
 
   if (d%3 == 0):
-    print("True")
+    print("Its divisible by 6. ")
   else:
-    print("False")
+    print("It's not divisible by 6. ")
 
 checkSum(3,4,5)
 print("**************************")
@@ -37,6 +37,6 @@ def greatestOfThree(num1,num2,num3):
   num3 = int(input("Enter a number: "))
   num12= greatest(num1,num2)  
   num4 = greatest(num12,num3)
-  print(num4)
+  print(num4+"Is the greatest number.")
 greatestOfThree(1,2,3)
 print("**************************")
