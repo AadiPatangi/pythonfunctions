@@ -37,6 +37,6 @@ def greatestOfThree(num1,num2,num3):
   num3 = int(input("Enter a number: "))
   num12= greatest(num1,num2)  
   num4 = greatest(num12,num3)
-  print(num4+"Is the greatest number.")
+  print(num4)
 greatestOfThree(1,2,3)
 print("**************************")
